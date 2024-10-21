@@ -1,0 +1,80 @@
+body{
+    background-image: url('/static/94724714-italian-pizza-on-white-wooden-background.webp') ;
+    
+    background-size:cover;
+   
+    
+
+}
+
+
+.card-deck{  
+padding-right: 15px;
+padding-left: 15px;
+size:200px;
+
+}
+.card{
+    width: 250px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 35px;
+}
+
+.card-img-top{
+    height: 300px;
+    border-radius: 15px 15px 0 0;
+   
+}
+.button{
+    padding-top: 30px;
+   padding-left: 580px;
+}
+
+.center{
+    
+position: absolute;
+top: 20%;
+left: 30%;
+bottom:50%;
+transform: translate(-50%  -50%);
+width: 450px;
+height: 500px;
+background: white;
+border-radius: 10px;
+box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+
+}
+
+.center-2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    bottom:50%;
+    transform: translate(-50%  -50%);
+    width: 350px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+    margin-top: 20px;
+    
+
+
+}
+.form-row{
+   
+    padding: 10px;
+}
+.form-group{
+    padding: 5px;
+    margin: 5px;
+}
+.form-group-2{
+    padding: 5px;
+    margin: 10px;
+}
+
+.btn{
+    margin-left: 10px;
+}

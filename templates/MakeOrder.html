@@ -1,0 +1,32 @@
+{% extends 'main.html' %}
+{% block title %}<title>Your Order </title>{% endblock %}
+{% block header %}{% endblock %}
+
+
+{% block content %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Pizza Name</th>
+      <th scope="col">Size</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+   {% for row in result %}
+
+   <tr>
+      <th scope="row">--</th>
+      <td>{{row.name}}</td>
+      <td>{{row.size}}</td>
+      <td>{{row.price}}</td> 
+    </tr>
+    
+      {% endfor %}
+      
+  </tbody>
+</table>
+
+{% endblock %}
